@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background-color: #e3f2fd;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #0d47a1;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.bottle {
+  width: 60px;
+  height: 200px;
+  background: url('bottle.png') no-repeat center / contain;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.color {
+  width: 90%;
+  height: 25%;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  transition: all 0.2s ease;
+  border: 1px solid #fff;
+}
